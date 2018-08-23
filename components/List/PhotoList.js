@@ -2,31 +2,38 @@ import React, { Component } from 'react';
 import { ScrollView } from 'react-native';
 //import axios from 'axios';
 
+import AlbumDetail from './AlbumDetail';
 
-
-class Photo extends Component {
+class PhotoList extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      photo: [],
+      photos: [],
     };
   }
 
-  /*componentWillMount() {
+ /* componentWillMount() {
     axios.get('https://rallycoding.herokuapp.com/api/music_albums').then((response) => {
       this.setState({ albums: response.data });
       console.log('response.data: ', response.data);
     });
   }*/
 
+   renderPhotos() {
+    return this.state.photos.map(photos =>
+      <PhotoDetail photos={photos} />
+    );
+  }
+
+
   render() {
     return (
       <ScrollView>
-        //{this.state.albums.map(album => <Photo key={album.title} album={album} />)}
+        {this.renderPhotos())}
       </ScrollView>
     );
   }
 }
 
-export default Photo;
+export default PhotoList;

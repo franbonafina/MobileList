@@ -20,10 +20,16 @@ class AlbumList extends Component {
     });
   }*/
 
+  renderAlbums() {
+    return this.state.albums.map(album =>
+      <AlbumDetail album={album} />
+    );
+  }
+
   render() {
     return (
       <ScrollView>
-        {this.state.albums.map(album => <AlbumDetail key={album.title} album={album} />)}
+         {this.renderAlbums()}
       </ScrollView>
     );
   }
