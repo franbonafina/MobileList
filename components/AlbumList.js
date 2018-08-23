@@ -13,12 +13,12 @@ class AlbumList extends Component {
     };
   }
 
-  componentWillMount() {
+ /* componentWillMount() {
     axios.get('https://rallycoding.herokuapp.com/api/music_albums').then((response) => {
       this.setState({ albums: response.data });
       console.log('response.data: ', response.data);
     });
-  }
+  }*/
 
   render() {
     return (
