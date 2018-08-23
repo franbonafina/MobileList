@@ -14,8 +14,16 @@ There are no rules other than it should run (after running npm install) on iOS a
 
 You will be judged on things like architecture, readability, animation, git usage, design, performance, third party usage and more.
 
+### Cloning the App
 
-### `npm start`
+```
+$ git clone https://github.com/franbonafina/reactNativeExample
+$ cd reactNativeExample
+```
+
+Once this is done, there are some commands you can run in the project directory:
+
+#### `npm start`
 
 Runs your app in development mode.
 
