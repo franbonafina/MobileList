@@ -13,7 +13,7 @@ const AlbumDetail = ({ album }) => (
 		</CardSection>
 
 		<CardSection>
-			<Button onPress={() => Linking.openURL(album.url)}>Go!</Button>
+			<Button onPress={() => navigate{'PhotoList', {album.photos}>{album.title}</Button>
 		</CardSection>
 	</Card>
 );
