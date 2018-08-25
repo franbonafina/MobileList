@@ -43,7 +43,3 @@ yarn start --reset-cache
 #### `npm test`
 
 Runs the [jest](https://github.com/facebook/jest) test runner on your tests.
-
-#### `npm run eject`
-
-This will start the process of "ejecting" App's build scripts. 
