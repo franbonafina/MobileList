@@ -1,6 +1,6 @@
 
 This project its a solution to the test for MEDIAMONKS(https://www.mediamonks.com/) exercise .
-Mainly done with [Create React Native App](https://github.com/react-community/create-react-native-app).
+Mainly done with [Create React Native App](https://github.com/react-community/create-react-native-app).and [Redux](https://redux.js.org/introduction)
 
 ## Excercise statement
 
@@ -22,6 +22,9 @@ $ cd reactNativeExample
 ```
 
 Once this is done, there are some commands you can run in the project directory:
+
+#### `npm install`
+Install the dependencies .
 
 #### `npm start`
 
