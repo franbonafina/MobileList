@@ -6,8 +6,10 @@ import {
   LayoutAnimation
 } from 'react-native';
 import { connect } from 'react-redux';
-import { CardSection } from './common';
+import { CardSection, Card } from './common';
+import  ListDetail  from'./ListDetail';
 import * as actions from '../actions';
+
 
 class ListItem extends Component {
   componentWillUpdate() {
@@ -15,22 +17,19 @@ class ListItem extends Component {
   }
 
   renderDescription() {
-    const { library, expanded } = this.props;
+    const { library, expanded }= this.props;
+    const id = this.props.library;
 
     if (expanded) {
       return (
-        <CardSection>
-          <Text style={{ flex: 1 }}>
-            {library.description}
-          </Text>
-        </CardSection>
+        <ListDetail library={library} />        
       );
     }
   }
 
   render() {
     const { titleStyle } = styles;
-    const { id, title } = this.props.library;
+    const { id, title, image } = this.props.library;
 
     return (
       <TouchableWithoutFeedback
@@ -41,7 +40,7 @@ class ListItem extends Component {
             <Text style={titleStyle}>
               {title}
             </Text>
-          </CardSection>
+          </CardSection>          
           {this.renderDescription()}
         </View>
       </TouchableWithoutFeedback>
