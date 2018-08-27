@@ -1,6 +1,6 @@
 
 This project its a solution to the test for MEDIAMONKS(https://www.mediamonks.com/) exercise .
-Mainly done with [Create React Native App](https://github.com/react-community/create-react-native-app).
+Mainly done with [Create React Native App](https://github.com/react-community/create-react-native-app).and [Redux](https://redux.js.org/introduction)
 
 ## Excercise statement
 
@@ -23,6 +23,9 @@ $ cd reactNativeExample
 
 Once this is done, there are some commands you can run in the project directory:
 
+#### `npm install`
+Install the dependencies .
+
 #### `npm start`
 
 Runs your app in development mode.
@@ -40,7 +43,3 @@ yarn start --reset-cache
 #### `npm test`
 
 Runs the [jest](https://github.com/facebook/jest) test runner on your tests.
-
-#### `npm run eject`
-
-This will start the process of "ejecting" App's build scripts. 
