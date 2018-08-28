@@ -23,6 +23,10 @@
     "react": "16.3.1",
     "react-native": "~0.55.2",
     "react-redux": "^4.4.5",
-    "redux": "^3.6.0"
+    "redux": "^3.6.0",
+    "redux-persist": "5.10",
+    "redux-axios-middleware": "",
+    "axios": "",
+    "redux-thunk": ""
   }
 }
