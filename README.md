@@ -2,7 +2,7 @@
 This project its a solution to the test for MEDIAMONKS(https://www.mediamonks.com/) exercise .
 Mainly done with [Create React Native App](https://github.com/react-community/create-react-native-app).and [Redux](https://redux.js.org/introduction)
 
-## Excercise statement
+## Statement
 
 Create a simple album list, photo list and photo detail application, using data from:
 
