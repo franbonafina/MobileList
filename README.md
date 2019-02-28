@@ -1,5 +1,5 @@
 
-This project its a solution to the test for MEDIAMONKS(https://www.mediamonks.com/) exercise .
+This project its a solution to an exercise .
 Mainly done with [Create React Native App](https://github.com/react-community/create-react-native-app).and [Redux](https://redux.js.org/introduction)
 
 ## Statement
